@@ -9,6 +9,7 @@ import { slideIn } from '../utils/motion';
 import { github } from '../assets';
 import { instagram } from '../assets';
 import { linkedin } from '../assets';
+import { gmail } from '../assets';
 
 const Contact = () => {
   const openGitHubPage = () => {
@@ -23,6 +24,7 @@ const Contact = () => {
     const linkedinURL = 'https://www.linkedin.com/in/ydt1738';
     window.open(linkedinURL, '_blank');
   };
+  
 
 
   return (
@@ -38,9 +40,13 @@ const Contact = () => {
         <img src={instagram} alt="instagram" className='w-8' />
         <p className='cursor-pointer' onClick={openinstagramPage}>Instagram</p>
       </div>
-      <div className='flex justify-start items-center' >
+      <div className='flex justify-start items-center mb-3' >
         <img src={linkedin} alt="linkedin" className='w-7 mr-1' />
         <p className='cursor-pointer' onClick={openlinkedinPage}>LinkedIn</p>
+      </div>
+      <div className='flex justify-start items-center' >
+        <img src={gmail} alt="linkedin" className='w-7 mr-1' />
+        <p className='cursor-pointer'>yashdt50@gmail.com</p>
       </div>
       </motion.div>
     </div>
