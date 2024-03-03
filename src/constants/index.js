@@ -15,6 +15,8 @@ import {
     tripguide,
     pass,
     threejs,
+    filex,
+    nexauth
   } from "../assets";
   
   export const navLinks = [
@@ -109,7 +111,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/ydt-yash-1738?tab=repositories",
+      source_code_link: "https://github.com/ydt-yash-1738/gpt3",
     },
     {
       name: "WebRTC Chat-Application (Text)",
@@ -130,7 +132,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/ydt-yash-1738?tab=repositories",
+      source_code_link: "https://github.com/ydt-yash-1738/webRTC",
     },
     {
       name: "WebRTC Video Chat Application",
@@ -151,7 +153,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/ydt-yash-1738?tab=repositories",
+      source_code_link: "https://github.com/ydt-yash-1738/webRTC",
     },
     {
       name: "Password Generator",
@@ -172,8 +174,55 @@ import {
         },
       ],
       image: pass,
-      source_code_link: "https://github.com/ydt-yash-1738?tab=repositories",
+      source_code_link: "https://github.com/ydt-yash-1738/FrontEnd-Basics/tree/main/password-generator/src",
     },
+    {
+      name: "FileXchange",
+      description:
+        "Developed a file sharing application using the MERN (MongoDB, Express, React, Node.js) stack, demonstrating proficiency in full-stack development.Implemented robust file handling functionalities, allowing users to upload and share files with ease.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "express",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: filex,
+      source_code_link: "https://file-sharing-ydt.vercel.app/",
+    },
+    {
+      name: "NexAuth",
+      description:
+        "Developed a custom authentication app using Next.js. Implemented user authentication features such as login and registration. Utilized MongoDB as the database to store user information securely.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+        
+      ],
+      image: nexauth,
+      source_code_link: "https://ydt-simple-authentication.vercel.app/",
+    }
   ];
   
   export { services, technologies, projects };

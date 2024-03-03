@@ -22,6 +22,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import pass from './pass.png'
+import filex from "./filex.png"
+import nexauth from  "./nexauth.png"
 
 export {
   logo,
@@ -48,4 +50,6 @@ export {
   jobit,
   tripguide,
   pass,
+  filex,
+  nexauth
 };

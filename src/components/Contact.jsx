@@ -24,7 +24,10 @@ const Contact = () => {
     const linkedinURL = 'https://www.linkedin.com/in/ydt1738';
     window.open(linkedinURL, '_blank');
   };
-  
+  const opengmail = () => {
+    const mailURL = 'https://mail.google.com/mail/u/0/?fs=1&to=yashdt50@gmail.com&body=Body+Here&tf=cm';
+    window.open(mailURL, '_blank');
+  };
 
 
   return (
@@ -45,8 +48,8 @@ const Contact = () => {
         <p className='cursor-pointer' onClick={openlinkedinPage}>LinkedIn</p>
       </div>
       <div className='flex justify-start items-center' >
-        <img src={gmail} alt="linkedin" className='w-7 mr-1' />
-        <p className='cursor-pointer'>yashdt50@gmail.com</p>
+        <img src={gmail} alt="gmail" className='w-7 mr-1' />
+        <p className='cursor-pointer' onClick={opengmail}>yashdt50@gmail.com</p>
       </div>
       </motion.div>
     </div>
