@@ -25,6 +25,7 @@ import pass from './pass.png'
 import filex from "./filex.png"
 import nexauth from  "./nexauth.png"
 import cv from "./cv.png"
+import resume from "./resume.pdf"
 
 export {
   logo,
@@ -53,5 +54,6 @@ export {
   pass,
   filex,
   nexauth,
-  cv
+  cv,
+  resume
 };

@@ -14,13 +14,10 @@ function App() {
           <Hero/>
         </div>
         <About/>
-        
         <Tech/>
         <Works/>
-        
-        <div className="relative z-0">
+        <div className="relative z-0 mt-0">
           <Contact/>
-          
         </div>
       </div>
     </BrowserRouter>
