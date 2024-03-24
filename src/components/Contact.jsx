@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
         <div className='flex justify-start items-center mb-2'>
           <img src={cv} alt="CV" className='w-7 mr-1 mt-3' />
-          <p className='cursor-pointer hover:underline mt-4' onClick={resume}>Download CV</p>
+          <p className='cursor-pointer hover:underline mt-4' onClick={resume}>Curriculum Vitae</p>
         </div>
       </motion.div>
     </div>
