@@ -177,7 +177,7 @@ import {
       source_code_link: "https://github.com/ydt-yash-1738/FrontEnd-Basics/tree/main/password-generator/src",
     },
     {
-      name: "FileXchange",
+      name: "FileXchange (Deployed)",
       description:
         "Developed a file sharing application using the MERN (MongoDB, Express, React, Node.js) stack, demonstrating proficiency in full-stack development.Implemented robust file handling functionalities, allowing users to upload and share files with ease.",
       tags: [
@@ -202,7 +202,7 @@ import {
       source_code_link: "https://file-sharing-ydt.vercel.app/",
     },
     {
-      name: "NexAuth",
+      name: "NexAuth (Deployed)",
       description:
         "Developed a custom authentication app using Next.js. Implemented user authentication features such as login and registration. Utilized MongoDB as the database to store user information securely.",
       tags: [

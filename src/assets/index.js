@@ -24,6 +24,7 @@ import tripguide from "./tripguide.png";
 import pass from './pass.png'
 import filex from "./filex.png"
 import nexauth from  "./nexauth.png"
+import cv from "./cv.png"
 
 export {
   logo,
@@ -51,5 +52,6 @@ export {
   tripguide,
   pass,
   filex,
-  nexauth
+  nexauth,
+  cv
 };
