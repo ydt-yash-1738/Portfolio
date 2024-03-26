@@ -43,7 +43,7 @@ const Contact = () => {
           <img src={linkedin} alt="LinkedIn" className='w-7 mr-1' />
           <p className='cursor-pointer hover:underline' onClick={openLinkedInPage}>LinkedIn</p>
         </div>
-        <div className='flex justify-start items-center mb-3'>
+        <div className='flex justify-start items-center'>
           <img src={gmail} alt="Gmail" className='w-7 mr-1' />
           <p className='cursor-pointer hover:underline' onClick={openGmail}>yashdt50@gmail.com</p>
         </div>
