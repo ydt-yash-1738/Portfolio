@@ -19,11 +19,11 @@ const Contact = () => {
   };
 
   const openGmail = () => {
-    window.open('mailto:yashdt50@gmail.com', '_blank');
+    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=yashdt50@gmail.com&body=Body%20Here', '_blank');
   };
 
   const resume = () => {
-    window.open('https://drive.google.com/file/d/16Yx8B1rh1Rl9D0Y7e0eF3nyainM-EQ4l/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1ESmiiTrpaylGyqWDhcTuDRJFhxhi6VCJ/view?usp=drive_link', '_blank');
   };
 
   return (
