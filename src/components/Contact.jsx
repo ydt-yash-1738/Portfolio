@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   const resume = () => {
-    window.open('https://drive.google.com/file/d/1ESmiiTrpaylGyqWDhcTuDRJFhxhi6VCJ/view?usp=drive_link', '_blank');
+    window.open('https://drive.google.com/file/d/18r6MGBBgGSg5uELOK7tJR8FwEqD2nMc7/view?usp=sharing', '_blank');
   };
 
   return (
