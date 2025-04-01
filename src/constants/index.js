@@ -199,7 +199,7 @@ import {
         },
       ],
       image: filex,
-      source_code_link: "https://file-sharing-ydt.vercel.app/",
+      source_code_link: "https://filexchange-ydt.vercel.app/",
     },
     {
       name: "NexAuth (Deployed)",
@@ -221,7 +221,7 @@ import {
         
       ],
       image: nexauth,
-      source_code_link: "https://ydt-simple-authentication.vercel.app/",
+      source_code_link: "https://github.com/ydt-yash-1738/next-auth",
     }
   ];
   
